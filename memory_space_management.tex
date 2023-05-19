@@ -1,6 +1,11 @@
-check which files are taking space du -h | sort -h > size.txt then head -100 size.txt
+check which files are taking space
+du -h | sort -h > size.txt then head -100 size.txt
 
-size taken by an application: apt show palemoon | grep Size
+search for a package apt search packagename
+
+size taken by an application before or after download:
+apt show palemoon | grep Size or aptitude install -sy firefox
+
 
 check if a package/file: dpkg -s package_name/file name
 

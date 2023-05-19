@@ -3,7 +3,10 @@ git init
 git add --all
 git commit -m "first"
 hub create
-git push -u origin HEAD
+git branch -M main
+git push -u origin main
+ 
+OR hub create then git push -u origin HEAD
 
 
 
